@@ -1,0 +1,28 @@
+* {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: black;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  height: 80vh;
+  width: 80vh;
+  margin: auto;
+  
+  grid-template-columns: repeat(16, 1fr);
+  border: 1px solid whitesmoke;
+}
+
+button {
+  font-size: 24px;
+  color:green;
+  background-color: transparent;
+  border: 2px solid green;
+  padding: 8px 16px;
+  margin: 16px;
+
+}
